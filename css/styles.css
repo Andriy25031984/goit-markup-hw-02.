@@ -11,5 +11,14 @@ body{
     background-color: #F5F4FA;
 }
 .title{
-    
+    color:#212121;
+}
+.hero-title{
+    color: #FFFFFF;
+}
+.text{
+    color: #757575;
+}
+.mail{
+    color: #2196F3;
 }
