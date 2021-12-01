@@ -1,24 +1,66 @@
+:root{
+    --primary-text-color:#757575;
+    --title-text-color:#212121;
+    --accent-color:#2196F3;
+    --white-color:#ffffff;
+    --primary-bg-color:#2F303A;
+}
 body{
-    background-color:#2F303A;
+    background-color:var(--primary-bg-color);
+    color:var(--primary-text-color) ;
+}
+.list{
+    list-style: none;
 }
 .page-header{
-    background-color: #FFFFFF;
+    background-color:var(--white-color);
 }
+/* logo */
+.page-header-logo{
+    color: var(--title-text-color);
+}
+.part-logo{
+    color:var(--accent-color);
+}
+/* site-nav */
+.site-naw,.link{
+    color:var(--title-text-color);
+}
+.site-naw,.link:hover,.site-nav,.link:focus{
+    color:var(--accent-color);}
+    /* contacts */
+.contacts{
+    color:var(--primary-text-color);
+}
+.contacts:hover,.contacts:focus{
+    color:var(--accent-color);}
+    /* hero */
+.hero-title{
+    color: var(--white-color);
+}
+.hero-button{
+    color: var(--white-color);
+    background-color: var(--accent-color);
+}
+/* work */
 .work{
     background-color: #E5E5E5;
 }
+.work,.title{
+    color: var(--title-text-color);}
+    /* team */
 .team{
-    background-color: #F5F4FA;
+    background-color: #F5F4FA;}
+.team,.title{
+    color: var(--title-text-color);}
+/* footer */
+.logo{
+    color: var(--white-color);
 }
-.title{
-    color:#212121;
+.address-link{
+    color: var(--white-color);
 }
-.hero-title{
-    color: #FFFFFF;
-}
-.text{
-    color: #757575;
-}
-.mail{
-    color: #2196F3;
-}
+.mail,.tel{
+    color:rgba(255, 255, 255, 0.6) ;
+
+
