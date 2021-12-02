@@ -9,6 +9,8 @@ body{
     background-color:var(--primary-bg-color);
     color:var(--primary-text-color) ;
     font-family: Roboto , sans-serif;
+    font-weight: 700;
+    font-style: 400;
     letter-spacing: 0.03em;
 
 }
@@ -32,39 +34,100 @@ line-height: 1.18;
     color:var(--title-text-color);
 }
 .site-naw,.link:hover,.site-nav,.link:focus{
-    color:var(--accent-color);}
+    color:var(--accent-color);
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+}
     /* contacts */
 .contacts{
     color:var(--primary-text-color);
+    font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
 }
 .contacts:hover,.contacts:focus{
     color:var(--accent-color);}
     /* hero */
 .hero-title{
     color: var(--white-color);
+font-weight: 900;
+font-size: 44px;
+line-height: 1,36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
 }
 .hero-button{
     color: var(--white-color);
     background-color: var(--accent-color);
+    font-size: 16px;
+line-height: 1.87;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
 }
 /* work */
 .work{
     background-color: #E5E5E5;
 }
+.work,.second-title{
+color: var(--title-text-color);
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+}
 .work,.title{
-    color: var(--title-text-color);}
+    color: var(--title-text-color);
+font-size: 14px;
+line-height: 1.14;
+text-transform: uppercase;
+}
+.work-text{
+    font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+}
+    
     /* team */
 .team{
     background-color: #F5F4FA;}
 .team,.title{
-    color: var(--title-text-color);}
+    color: var(--title-text-color);
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+}
+.name-title{
+    color: var(--title-text-color);
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+}
 /* footer */
 .logo{
     color: var(--white-color);
+   font-family: Raleway;
+   font-style: 400;
+   font-weight: 700; 
+    font-size: 26px;
+line-height: 1.19;
 }
 .address-link{
     color: var(--white-color);
+    font-size: 14px;
+line-height: 1.71;
 }
 .mail,.tel{
-    color:rgba(255, 255, 255, 0.6) }
+    color:rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+line-height: 1.71;
+}
+.our-work{
+    background-color: #ffffff;
+}
 
