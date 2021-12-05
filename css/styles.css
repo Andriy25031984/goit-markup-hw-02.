@@ -131,3 +131,37 @@ line-height: 1.71;
     background-color: #ffffff;
 }
 
+.portfolio-title{
+    color: var(--title-text-color);
+    font-family: Roboto;
+font-style: 400;
+font-weight: 700;
+font-size: 18px;
+line-height: 2.00;
+letter-spacing: 0.06em;
+}
+.portfolio-text{
+    color: var(--primary-text-color);
+    font-family: Roboto;
+font-style: 400;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.03em;
+}
+.portfolio-button{
+    color: var(--title-text-color);
+    background-color: #F5F4FA;
+
+    font-family: Roboto;
+font-style: 400;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+letter-spacing: 0.03em;
+}
+.portfolio-button:hover,.portfolio-button:focus{
+    background-color: var(--accent-color);
+    color: var(--white-color);
+}
