@@ -9,8 +9,7 @@ body{
     background-color:var(--primary-bg-color);
     color:var(--primary-text-color) ;
     font-family: Roboto , sans-serif;
-    font-weight: 700;
-    font-style: 400;
+    font-weight: 400;
     letter-spacing: 0.03em;
 
 }
@@ -35,10 +34,6 @@ line-height: 1.18;
 }
 .site-naw,.link:hover,.site-nav,.link:focus{
     color:var(--accent-color);
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
 }
     /* contacts */
 .contacts{
@@ -55,7 +50,7 @@ letter-spacing: 0.02em;
     color: var(--white-color);
 font-weight: 900;
 font-size: 44px;
-line-height: 1,36;
+line-height: 1.36;
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
@@ -72,7 +67,7 @@ letter-spacing: 0.06em;
 }
 /* work */
 .work{
-    background-color: #E5E5E5;
+    background-color: #F5F4FA;
 }
 .work,.second-title{
 color: var(--title-text-color);
@@ -82,21 +77,21 @@ text-align: center;
 }
 .work,.title{
     color: var(--title-text-color);
+    font-weight: 700;
 font-size: 14px;
 line-height: 1.14;
 text-transform: uppercase;
 }
 .work-text{
-    font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 }
-    
     /* team */
 .team{
     background-color: #F5F4FA;}
 .team,.title{
     color: var(--title-text-color);
+    font-weight: 700;
 font-size: 36px;
 line-height: 1.16;
 text-align: center;
@@ -112,7 +107,6 @@ text-align: center;
 .logo{
     color: var(--white-color);
    font-family: Raleway;
-   font-style: 400;
    font-weight: 700; 
     font-size: 26px;
 line-height: 1.19;
@@ -133,8 +127,6 @@ line-height: 1.71;
 
 .portfolio-title{
     color: var(--title-text-color);
-    font-family: Roboto;
-font-style: 400;
 font-weight: 700;
 font-size: 18px;
 line-height: 2.00;
@@ -142,24 +134,16 @@ letter-spacing: 0.06em;
 }
 .portfolio-text{
     color: var(--primary-text-color);
-    font-family: Roboto;
-font-style: 400;
-font-weight: 400;
 font-size: 16px;
 line-height: 1.87;
-letter-spacing: 0.03em;
 }
 .portfolio-button{
     color: var(--title-text-color);
     background-color: #F5F4FA;
-
-    font-family: Roboto;
-font-style: 400;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
 text-align: center;
-letter-spacing: 0.03em;
 }
 .portfolio-button:hover,.portfolio-button:focus{
     background-color: var(--accent-color);
