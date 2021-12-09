@@ -6,10 +6,8 @@
     --primary-bg-color:#2F303A;
 }
 body{
-    background-color:var(--primary-bg-color);
     color:var(--primary-text-color) ;
     font-family: Roboto , sans-serif;
-    font-weight: 400;
     letter-spacing: 0.03em;
 
 }
@@ -21,16 +19,25 @@ body{
 }
 /* logo */
 .page-header-logo{
-    color: var(--title-text-color);
-font-size: 16px;
-line-height: 1.18;
+color: var(--title-text-color);
+font-family: Raleway;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
 }
 .part-logo{
-    color:var(--accent-color);
+color:var(--accent-color);
+font-family: Raleway;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
 }
 /* site-nav */
 .site-naw,.link{
     color:var(--title-text-color);
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
 }
 .site-naw,.link:hover,.site-nav,.link:focus{
     color:var(--accent-color);
