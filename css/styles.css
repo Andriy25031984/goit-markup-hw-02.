@@ -95,7 +95,6 @@ text-transform: uppercase;
 }
 .work-text{
 color: var(--primary-text-color);
-font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
@@ -141,7 +140,6 @@ letter-spacing: 0.03em;
 .address-link{
 color: var(--white-color);
 text-decoration: none;
-font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
@@ -149,7 +147,6 @@ letter-spacing: 0.03em;
 .mail,.tel{
 color:rgba(255, 255, 255, 0.6);
 text-decoration: none;
-font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
