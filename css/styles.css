@@ -7,6 +7,7 @@
 }
 body{
     font-family:Roboto,sans-serif;
+    color: var(--primary-text-color);
 }
 .page-header{
     background-color:var(--white-color);
@@ -91,7 +92,6 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 }
 .pros-text{
-color: var(--primary-text-color);
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
@@ -100,21 +100,20 @@ letter-spacing: 0.03em;
 .team{
     background-color: #F5F4FA;}
 .team-title{
-    color: var(--title-text-color);
-    font-weight: 700;
+color: var(--title-text-color);
+font-weight: 700;
 font-size: 36px;
 line-height: 1.16;
 text-align: center;
 }
 .team-name-title{
-    color: var(--title-text-color);
-    font-weight: 500;
+color: var(--title-text-color);
+font-weight: 500;
 font-size: 16px;
 line-height: 1.18;
 text-align: center;
 }
 .taem-text{
-color: var(--primary-text-color);
 font-size: 16px;
 line-height: 1.18;
 text-align: center;
@@ -148,9 +147,6 @@ font-style: normal;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
-}
-.our-work{
-    background-color: #ffffff;
 }
 .portfolio-links{ 
     text-decoration: none;
