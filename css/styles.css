@@ -33,14 +33,13 @@ color:var(--title-text-color);
 text-decoration: none;
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.14;
 letter-spacing: 0.02em;
 }
-.site-naw-link:hover,.site-nav-link:focus{
+.site-nav-link:hover,.site-nav-link:focus{
     color:var(--accent-color);
 }
     /* contacts */
-
 .contacts{
 color:var(--primary-text-color);
 text-decoration: none;
@@ -67,6 +66,7 @@ text-transform: uppercase;
 .hero-button{
 color: var(--white-color);
 background-color: var(--accent-color);
+cursor: pointer;
 font-weight: 700;
 font-size: 16px;
 line-height: 1.87;
@@ -76,24 +76,21 @@ text-align: center;
 letter-spacing: 0.06em;
 }
 /* work */
-.work{
-    background-color: #F5F4FA;
-}
 .work-second-title{
 font-weight: 700;
 font-size: 36px;
-line-height: 42px;
+line-height: 1.16;
 text-align: center;
 letter-spacing: 0.03em;
 }
-.work-title{
+.pros-title{
 color: var(--title-text-color);
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 }
-.work-text{
+.pros-text{
 color: var(--primary-text-color);
 font-size: 14px;
 line-height: 1.71;
@@ -118,7 +115,6 @@ text-align: center;
 }
 .taem-text{
 color: var(--primary-text-color);
-font-weight: 400;
 font-size: 16px;
 line-height: 1.18;
 text-align: center;
@@ -140,6 +136,7 @@ letter-spacing: 0.03em;
 .address-link{
 color: var(--white-color);
 text-decoration: none;
+font-style: normal;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
@@ -147,6 +144,7 @@ letter-spacing: 0.03em;
 .mail,.tel{
 color:rgba(255, 255, 255, 0.6);
 text-decoration: none;
+font-style: normal;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
